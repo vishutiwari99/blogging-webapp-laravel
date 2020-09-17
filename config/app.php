@@ -163,8 +163,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         // Unisharp\Ckeditor\ServiceProvider::class,
-        // vendor/composer/autoload_classmap.php,
-
+       
 
         /*
          * Package Service Providers...
@@ -175,7 +174,7 @@ return [
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
