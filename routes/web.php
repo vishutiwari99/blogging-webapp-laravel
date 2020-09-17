@@ -31,4 +31,4 @@ Route::get("/services","App\Http\Controllers\PageController@services");
 Route::resource('posts','App\Http\Controllers\PostsController');
 Auth::routes();
 
-Route::get('/dashboard', 'DashboardController@index');
+Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index');
