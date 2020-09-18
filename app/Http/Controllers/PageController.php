@@ -8,7 +8,7 @@ class PageController extends Controller
 {
     public function index()
     {
-        $title="Welcome to laravel modified";
+        $title="Welcome to our Website ";
         return view('pages.index')->with('title',$title);
     }
     public function services()
@@ -22,7 +22,7 @@ class PageController extends Controller
     }
     public function about()
     {
-        $title="Welcome to about modified";
+        $title="Welcome to our Blog";
         return view('pages.about')->with('title',$title);
     }
 }

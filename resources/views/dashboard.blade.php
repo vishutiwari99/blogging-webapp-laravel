@@ -14,6 +14,8 @@
                     </div>
                     @endif
                     <a href="/posts/create" class="btn btn-primary">Create Post</a>
+                    <br>
+                    <br>
                     <h3>Your Blog Post</h3>
                     @if (count($posts)>0)
                     <table class="table table-striped">
