@@ -5,6 +5,10 @@
         "This file is @generated automatically"
     ],
     "content-hash": "f207c13e2a851ecfd5af11fcc74135f5",
+    "post-install-cmd": [
+        "php artisan clear-compiled",
+        "chmod -R 777 public/"
+    ],
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -14,6 +18,7 @@
                 "url": "https://github.com/asm89/stack-cors.git",
                 "reference": "23f469e81c65e2fb7fc7bce371fbdc363fe32adf"
             },
+           
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/asm89/stack-cors/zipball/23f469e81c65e2fb7fc7bce371fbdc363fe32adf",
@@ -7208,3 +7213,5 @@
     "platform-dev": [],
     "plugin-api-version": "1.1.0"
 }
+
+
